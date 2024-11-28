@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Bottom Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Add custom styling to make sure the content is not hidden behind the navbar */
+        body {
+            padding-bottom: 60px; /* Adjust based on navbar height */
+        }
+    </style>
+</head>
+<body>
+    <!-- Main content -->
+    <div class="container mt-5">
+        <h1>Welcome to the Mobile Bottom Navbar Example</h1>
+        <p>This is a sample content area. Scroll down to see the bottom navbar in action.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non bibendum nisl, sit amet bibendum felis.</p>
+        <p>Scroll down to explore the bottom navbar. You can add links or icons here!</p>
+    </div>
+
+    <!-- Mobile Bottom Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom d-md-none">
+        <div class="container-fluid">
+            <ul class="navbar-nav w-100 text-center">
+                <li class="nav-item col">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item col">
+                    <a class="nav-link" href="#">Search</a>
+                </li>
+                <li class="nav-item col">
+                    <a class="nav-link" href="#">Notifications</a>
+                </li>
+                <li class="nav-item col">
+                    <a class="nav-link" href="#">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
