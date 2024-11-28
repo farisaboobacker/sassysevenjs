@@ -15,11 +15,9 @@ for (let i = 0; i <=100; i++) {
                 </div>
             </div>
         </div>
-    
     `;
     if (i == 50) {
         row.innerHTML+=`
-    
         <div class="col">
             <div class="card shadow bg-danger-subtle">
                 <div class="card-body">
@@ -30,7 +28,6 @@ for (let i = 0; i <=100; i++) {
                 </div>
             </div>
         </div>
-    
     `;
     continue;
     }
