@@ -1,6 +1,7 @@
 
-
-
+function prints() {
+    document.write("<h1>Hello World</h1>");
+}
 
 for (let i = 0; i <=100; i++) {
     row.innerHTML+=`
@@ -32,3 +33,23 @@ for (let i = 0; i <=100; i++) {
     continue;
     }
 }
+
+console.log("Hello .net core students")
+
+// OUTPUT
+// alert
+// document.write();
+// console.log()
+// innerHTML
+// innerText
+// value
+
+console.warn("sfjhsbfhjbjhb")
+console.error("Helolo World");
+
+var obj={
+    name:"Athul",
+    age:99,
+    Result:"Passed"
+}
+console.table(obj);

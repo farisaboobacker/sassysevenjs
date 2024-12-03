@@ -13,6 +13,18 @@
     </style>
 </head>
 <body>
+    <button class="btn " onclick="window.history.back()">Back</button>
+    <button class="btn" onclick="window.alert('some text')">alert</button>
+    <button class="btn" onclick="
+    if (window.confirm('please confirm')) {
+        alert('Confirmed')
+    }else{
+        alert('Canceled')
+    }
+    
+    
+    ">confirm</button>
+    <button class="btn" onclick="window.prompt('some text')">prompt</button>
     <!-- Main content -->
     <div class="container mt-5">
         <h1>Welcome to the Mobile Bottom Navbar Example</h1>
