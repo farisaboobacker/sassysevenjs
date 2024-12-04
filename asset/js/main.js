@@ -3,36 +3,36 @@ function prints() {
     document.write("<h1>Hello World</h1>");
 }
 
-for (let i = 0; i <=100; i++) {
-    row.innerHTML+=`
+// for (let i = 0; i <=100; i++) {
+//     row.innerHTML+=`
     
-        <div class="col">
-            <div class="card shadow">
-                <div class="card-body">
-                    <h3 class="card-title">${i}</h3><hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure omnis officiis adipisci magni
-                        accusamus ea rerum amet nesciunt tempora sed aspernatur, consequuntur unde voluptates, mollitia
-                        perspiciatis error, fugit veniam!</p>
-                </div>
-            </div>
-        </div>
-    `;
-    if (i == 50) {
-        row.innerHTML+=`
-        <div class="col">
-            <div class="card shadow bg-danger-subtle">
-                <div class="card-body">
-                    <h3 class="card-title">${i}</h3><hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure omnis officiis adipisci magni
-                        accusamus ea rerum amet nesciunt tempora sed aspernatur, consequuntur unde voluptates, mollitia
-                        perspiciatis error, fugit veniam!</p>
-                </div>
-            </div>
-        </div>
-    `;
-    continue;
-    }
-}
+//         <div class="col">
+//             <div class="card shadow">
+//                 <div class="card-body">
+//                     <h3 class="card-title">${i}</h3><hr>
+//                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure omnis officiis adipisci magni
+//                         accusamus ea rerum amet nesciunt tempora sed aspernatur, consequuntur unde voluptates, mollitia
+//                         perspiciatis error, fugit veniam!</p>
+//                 </div>
+//             </div>
+//         </div>
+//     `;
+//     if (i == 50) {
+//         row.innerHTML+=`
+//         <div class="col">
+//             <div class="card shadow bg-danger-subtle">
+//                 <div class="card-body">
+//                     <h3 class="card-title">${i}</h3><hr>
+//                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure omnis officiis adipisci magni
+//                         accusamus ea rerum amet nesciunt tempora sed aspernatur, consequuntur unde voluptates, mollitia
+//                         perspiciatis error, fugit veniam!</p>
+//                 </div>
+//             </div>
+//         </div>
+//     `;
+//     continue;
+//     }
+// }
 
 console.log("Hello .net core students")
 
@@ -64,3 +64,62 @@ console.table(obj);
 
 
 // document.getElementsByClassName("haed")[''];
+
+
+
+// variables
+
+
+
+
+//                     var              let             const
+//     scope           Global           Block           Block
+//     Reassign        ✔                ✔              ✖
+//     Rediclaration   ✔                ✖              ✖
+//     decalre/usage   alltime          after          after
+
+// var x=10;
+// x=1234;
+// x="sdfffd";
+
+
+// Num=100;
+// var Num;
+// var Num;
+
+
+// let xy;
+// xy=12.89;
+
+// const School = "Abc School";
+
+
+// {
+//     let Name = "Akil";
+//     document.write(Name);
+// }
+
+// document.write(Name);
+var x=null;
+ value ??=x ;
+
+
+// operators
+
+// arithma      + - * % / ++ -- **
+// assignment   =  += -= *= **= /= %= &&= ||= ??=
+// condi/relat  > < >= <= == != === 
+// logical      ! && ||
+
+// ternory      ?:
+// Null-collescing ??
+// optional changing
+// index
+// spread
+// array destructing
+// object destructing
+// typeof
+// instance
+// void op
+
+console.log(100%2==0?'Even':'Odd')
