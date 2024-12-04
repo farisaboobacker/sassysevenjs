@@ -53,3 +53,14 @@ var obj={
     Result:"Passed"
 }
 console.table(obj);
+
+// Age=prompt("Enter Age");
+// if (Age >= 18) {
+//     alert("Eligble");
+// } else {
+//     alert("Not Eligble");
+    
+// }
+
+
+// document.getElementsByClassName("haed")[''];
