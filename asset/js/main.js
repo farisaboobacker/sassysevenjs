@@ -1,7 +1,7 @@
 
-function prints() {
-    document.write("<h1>Hello World</h1>");
-}
+// function prints() {
+//     document.write("<h1>Hello World</h1>");
+// }
 
 // for (let i = 0; i <=100; i++) {
 //     row.innerHTML+=`
@@ -34,7 +34,7 @@ function prints() {
 //     }
 // }
 
-console.log("Hello .net core students")
+// console.log("Hello .net core students")
 
 // OUTPUT
 // alert
@@ -44,15 +44,15 @@ console.log("Hello .net core students")
 // innerText
 // value
 
-console.warn("sfjhsbfhjbjhb")
-console.error("Helolo World");
+// console.warn("sfjhsbfhjbjhb")
+// console.error("Helolo World");
 
-var obj={
-    name:"Athul",
-    age:99,
-    Result:"Passed"
-}
-console.table(obj);
+// var obj={
+//     name:"Athul",
+//     age:99,
+//     Result:"Passed"
+// }
+// console.table(obj);
 
 // Age=prompt("Enter Age");
 // if (Age >= 18) {
@@ -100,8 +100,8 @@ console.table(obj);
 // }
 
 // document.write(Name);
-var x=null;
- value ??=x ;
+// var x=null;
+//  value ??=x ;
 
 
 // operators
@@ -122,4 +122,92 @@ var x=null;
 // instance
 // void op
 
-console.log(100%2==0?'Even':'Odd')
+// console.log(100%2==0?'Even':'Odd')
+
+
+// conditional Statments
+// if
+// if (10 > 20) {
+//     alert("10 is greater");
+// }else{
+//     alert("20 is greater");
+// }
+
+// if (10 > 20)
+//     alert("10 is greater");
+// else
+// alert("20 is Big");
+
+
+// if (20 > 10) 
+//     if(10 > 20)
+//         if(100 <200)
+//             alert("OKOK");
+
+
+// if (20 > 10) 
+//     if(true){
+//         alert("OKOK");
+//         alert("OKOK");
+//         alert("OKOK");
+//     }
+
+
+// if (10 > 20 || ( 20 > 10 &&  40 > 10) ) {
+//     alert("OKOK");
+// }
+
+// if (false) {
+//     alert("OK");
+// }else if(false){
+//     alert("OKOK");
+    
+// }else if(true){
+//     alert("OKOKOK");
+    
+// }else if(false){
+//     alert("OKOKOKOK");
+    
+// }else if(false){
+//     alert("OKOKOKOKOK");
+    
+// }else{
+//     alert("OKOKOKOKOKOK");
+
+// }
+// if else
+// else if
+// nested if
+// elseif ladder
+
+// switch
+// var grade = prompt("Enter your Grade ?");
+
+// switch (grade) {
+//     case "A+":
+//         // document.write("<h1 class='alert alert-primary'>Excellent</h1>");
+//         document.getElementById("res").innerHTML ="Excellent";
+//         break;
+//     case "B+":
+//         document.write("<h1 class='alert alert-primary'>Very Good</h1>");
+//         break;
+//     case "C+":
+//         document.write("<h1 class='alert alert-primary'>Good</h1>");
+//         break;
+
+//     default:
+//         document.write("<h1 class='alert alert-primary'>check your grade</h1>");
+//         break;
+// }
+
+var x= 1000;
+var y= 2000;
+var result = x + y;
+
+res.innerHTML="the sum of " + x +" and " + y + " is : " + result ;
+
+document.write(" Hello Worl "+
+    
+   + "");
+
+   res.innerHTML = ` The sum of ${x} and ${y} is : ${result} `
