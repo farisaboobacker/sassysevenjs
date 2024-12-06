@@ -200,14 +200,33 @@
 //         break;
 // }
 
-var x= 1000;
-var y= 2000;
-var result = x + y;
+// var x= 1000;
+// var y= 2000;
+// var result = x + y;
 
-res.innerHTML="the sum of " + x +" and " + y + " is : " + result ;
+// res.innerHTML="the sum of " + x +" and " + y + " is : " + result ;
 
-document.write(" Hello Worl "+
+// document.write(" Hello Worl "+
     
-   + "");
+//    + "");
 
-   res.innerHTML = ` The sum of ${x} and ${y} is : ${result} `
+//    res.innerHTML = ` The sum of ${x} and ${y} is : ${result} `
+
+
+var txtT='     Hello World  ';
+// txt.replace();
+// txt.length;
+// txt.substring();
+// txt.substr();
+// txt.slice(1,7);
+// txt.endsWith('hello');
+// txt.startsWith('hello');
+// txt.includes();
+// txt.indexOf();
+// txt.padEnd(10,"*");
+;
+txtT=txtT.padEnd(25, '*');
+document.write(txtT);
+const str1 = 'Breaded Mushrooms';
+document.write(str1.padEnd(25, '.'));
+// Expected output: "Breaded Mushrooms........"
